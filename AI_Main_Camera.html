@@ -19,7 +19,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#">친구에게 공유하기</a>
+      <a class="nav-item nav-link" onclick="copy_to_clipboard()" href="#">친구에게 공유하기</a>
       <a class="nav-item nav-link" href="#">개발자 정보</a>
     </div>
   </div>
@@ -112,6 +112,16 @@
 
     }
 
+</script>
+
+<input id="myInput" value="https://glacier-han.github.io/AI_Jobtest/Intro.html">
+<script>
+function copy_to_clipboard() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("Copy");
+  alert('클립보드에 복사되었습니다.\nSNS에서 복사/붙여넣기를 하세요!');
+}
 </script>
 
   </div>
