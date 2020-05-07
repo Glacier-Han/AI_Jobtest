@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'Godo';
+    font-weight: 500;
+    src: url('fonts/GodoM.woff') format('woff');
+}
+@font-face {
+    font-family: 'Godo';
+    font-weight: 700;
+    src: url('fonts/GodoB.woff') format('woff');
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
