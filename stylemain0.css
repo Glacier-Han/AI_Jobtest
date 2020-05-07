@@ -120,7 +120,7 @@ body {
   transition: all .2s ease;
   outline: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .remove-image:hover {
